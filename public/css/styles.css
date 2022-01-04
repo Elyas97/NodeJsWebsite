@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("../images/back.jpg");
+    background-position: inherit; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+
+}
+.navbars{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid #fff;
+    color: white;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+display: inline-block;
+list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px;
+}
+.col-2{
+   flex-basis: 50%; 
+   min-width: 300px;
+}
+.col-2:last-child{
+    display: none;
+    flex-basis: 50%; 
+    min-width: 300px;
+ }
+
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+    color: white;
+}
+.btn{
+    display: inline-block;
+    background: #14a14d;
+    color: white;
+    padding: 8px 30px;
+    border-radius: 30px;
+    margin: 30px 0;
+    width: 200px;
+}
+.btn:hover{
+    background: #563434;
+}
+
+input{
+    height: 30px;
+    width: 200px;
+    border: 1px solid #ccc;
+}
+.cont{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    overflow: hidden;
+    background-color:rgba(0, 0, 0, 0.6);
+
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0px;
+}
+.result{
+    background: white;
+    width: 300px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    overflow: hidden;
+    color: #555;
+    font-size: 12px;
+    box-shadow: 0 0 20px 0px rgb(0 0 0 / 10%);
+
+}
+ul{
+    list-style: none;
+}  
+li{
+    color: #555;
+}
+.col-3{
+    color: wheat;
+    flex-basis: 50%; 
+    min-width: 300px;
+ }
+ 
+ 
+.col-3 h1{
+     font-size: 50px;
+     line-height: 60px;
+     margin: 25px 0;
+     color: white;
+ }
+.col-3 img{
+    max-width: 100%;
+    width: 350px;
+    height: fit-content;
+}
+.col-3 p{
+    font-size: 25px;
+    font-style: bold;
+}
+.footer{
+    background-color:rgba(0, 0, 0, 0.6);
+    width: fit-content;
+    color: wheat;
+    margin: 50px;
+    padding: 5px;
+}
