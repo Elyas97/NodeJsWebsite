@@ -6,7 +6,7 @@ const input=document.getElementById('inputs');
 const output=document.getElementsByClassName('col-2')[1];
  function getWeather(){
     if(input.value){
-        fetch('http://localhost:3000/weather?adress='+input.value).then((response)=>{
+        fetch('/weather?adress='+input.value).then((response)=>{
             response.json().then((data)=>{
                 console.log(data)
                 
